@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   justify-content: space-between;
   display: flex;
@@ -11,5 +17,31 @@ nav {
 
 .pLogo {
   color: white;
-  margin-right: 60rem;
+  margin-right: 119rem;
+  margin-top: 1rem;
+}
+
+main {
+  background-color: rgba(25, 25, 33);
+  height: 500px;
+}
+
+.SpaceLogo {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.TitleLogo {
+  color: white;
+  margin-top: 0.5rem;
+  
+}
+
+.btn{
+  background-color: rgba(90, 184, 209) ;
+  color: rgba(25, 25, 33) ;
+  padding : 0.5rem;
+  border-radius: 5%;
+  margin: 2.5rem;
+  display: inline-block;
 }
